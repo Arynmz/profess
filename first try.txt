@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peer-to-Peer Learning Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>LearnConnect</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#find-tutor">Find a Tutor</a></li>
+                <li><a href="#become-tutor">Become a Tutor</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <h2>Connect with Expert Tutors</h2>
+        <p>Learn, teach, and grow with our peer-to-peer learning platform.</p>
+        <button onclick="alert('Coming Soon!')">Get Started</button>
+    </section>
+
+    <section id="find-tutor">
+        <h2>Find a Tutor</h2>
+        <p>Search by subject, expertise, or ratings to find the perfect match.</p>
+        <input type="text" placeholder="Search for subjects...">
+    </section>
+
+    <section id="become-tutor">
+        <h2>Become a Tutor</h2>
+        <p>Share your knowledge and earn money by helping others succeed.</p>
+        <button onclick="alert('Sign Up Coming Soon!')">Sign Up</button>
+    </section>
+
+    <footer id="contact">
+        <p>&copy; 2024 LearnConnect. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    margin: 0 10px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    margin: 0 0 10px;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+// Placeholder for interactivity
+console.log("LearnConnect is ready!");
